@@ -294,8 +294,8 @@ def main():
     application.run_webhook(
         listen="0.0.0.0",
         port=10000,
-        webhook_url=f"https://valentine-bot-evo4.onrender.com/webhook",
-        url_path=f"https://valentine-bot-evo4.onrender.com/webhook",
+        webhook_url="https://valentine-bot-evo4.onrender.com/webhook",
+        url_path="webhook",
     )
 
 if __name__ == "__main__":
