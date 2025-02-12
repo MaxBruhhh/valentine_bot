@@ -295,7 +295,7 @@ def main():
         listen="0.0.0.0",
         port=10000,
         webhook_url=f"https://valentine-bot-evo4.onrender.com/webhook",
-        url_path=TOKEN,
+        url_path=f"https://valentine-bot-evo4.onrender.com/webhook",
     )
 
 if __name__ == "__main__":
