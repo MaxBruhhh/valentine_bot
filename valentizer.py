@@ -293,7 +293,7 @@ def main():
     # Настройка вебхуков для Render
     application.run_webhook(
         listen="0.0.0.0",
-        port=PORT,
+        port=1000,
         webhook_url=f"https://{BOT_USERNAME}.onrender.com/{TOKEN}",
         url_path=TOKEN,
     )
