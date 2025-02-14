@@ -16,7 +16,7 @@ load_dotenv()
 
 # Конфигурация
 TOKEN = os.getenv("TOKEN")
-GROUP_CHAT_ID = -1002481390856  # Замените на ID вашей группы
+GROUP_CHAT_ID = -1001987987693  # Замените на ID вашей группы
 BOT_USERNAME = "ValentizerBot"  # Укажите username бота
 PORT = 10000  # Порт для вебхуков (используйте 10000 для Render)
 
